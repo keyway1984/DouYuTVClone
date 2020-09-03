@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uOG-52-qwG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="KbW-cI-xzw">
+            <objects>
+                <viewController id="mZY-pH-GAR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LgC-UY-RZd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hv-t1-ibW">
+                                <rect key="frame" x="198.5" y="430" width="17" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1hv-t1-ibW" firstAttribute="centerX" secondItem="LgC-UY-RZd" secondAttribute="centerX" id="7CU-R5-sCy"/>
+                            <constraint firstItem="1hv-t1-ibW" firstAttribute="centerY" secondItem="LgC-UY-RZd" secondAttribute="centerY" id="gax-uM-AbI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vgR-IO-dyg"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cmH-oI-x0z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tPf-Xr-apa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1580" y="467.73399014778329"/>
+        </scene>
+        <!--Yule-->
+        <scene sceneID="a01-dq-DJ1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uOG-52-qwG" userLabel="Yule" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="娱乐" image="tabYule" selectedImage="tabYuleHL" id="KsV-Qv-LDt"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="96R-Cg-kuO">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mZY-pH-GAR" kind="relationship" relationship="rootViewController" id="kGU-KK-L8f"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hfn-l2-kkM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="637.60000000000002" y="467.73399014778329"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabYule" width="44" height="44"/>
+        <image name="tabYuleHL" width="44" height="44"/>
+    </resources>
+</document>

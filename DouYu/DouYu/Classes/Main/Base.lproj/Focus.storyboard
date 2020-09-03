@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xCh-21-ttx">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="iLP-Fx-5Yk">
+            <objects>
+                <viewController id="QOU-rK-EFq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Stj-v6-jIU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Zg-qH-kuj">
+                                <rect key="frame" x="197.5" y="430" width="19" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="2Zg-qH-kuj" firstAttribute="centerY" secondItem="Stj-v6-jIU" secondAttribute="centerY" id="9TY-Sw-oIn"/>
+                            <constraint firstItem="2Zg-qH-kuj" firstAttribute="centerX" secondItem="Stj-v6-jIU" secondAttribute="centerX" id="Jej-oc-JcH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uah-Lz-K0Z"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="K3J-Y7-D73"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cjq-ve-fIv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1580" y="1184"/>
+        </scene>
+        <!--Focus-->
+        <scene sceneID="wz5-ir-YDg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xCh-21-ttx" userLabel="Focus" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="关注" image="tabFocus" selectedImage="tabFocusHL" id="ROA-lc-q6M"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="feP-d1-U8p">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QOU-rK-EFq" kind="relationship" relationship="rootViewController" id="4Rd-GV-9dJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xP2-mD-Yif" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="638" y="1184"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabFocus" width="44" height="44"/>
+        <image name="tabFocusHL" width="44" height="44"/>
+    </resources>
+</document>

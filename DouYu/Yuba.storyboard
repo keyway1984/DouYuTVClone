@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TLF-01-0Pg">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Kjy-rT-DK2">
+            <objects>
+                <viewController id="tEK-CX-Ncs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I3M-Dw-l8N">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Uk-Cu-2ZF">
+                                <rect key="frame" x="197.5" y="430" width="19" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="5Uk-Cu-2ZF" firstAttribute="centerX" secondItem="I3M-Dw-l8N" secondAttribute="centerX" id="2bK-xs-Pyz"/>
+                            <constraint firstItem="5Uk-Cu-2ZF" firstAttribute="centerY" secondItem="I3M-Dw-l8N" secondAttribute="centerY" id="avp-Kn-4WR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="P4d-Lk-Pz6"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lbO-ep-Bh0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ttw-0g-kUB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1580" y="1986"/>
+        </scene>
+        <!--Yuba-->
+        <scene sceneID="X3o-Qh-xPN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TLF-01-0Pg" userLabel="Yuba" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="鱼吧" image="tabYuba" selectedImage="tabYubaHL" id="ihf-NO-rMB"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Mlh-He-V3e">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tEK-CX-Ncs" kind="relationship" relationship="rootViewController" id="07r-rO-5M5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1MO-73-wZU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="638" y="1986"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabYuba" width="44" height="44"/>
+        <image name="tabYubaHL" width="44" height="44"/>
+    </resources>
+</document>
