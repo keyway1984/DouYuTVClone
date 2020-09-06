@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uOG-52-qwG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mZY-pH-GAR">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Yule-->
         <scene sceneID="KbW-cI-xzw">
             <objects>
-                <viewController id="mZY-pH-GAR" sceneMemberID="viewController">
+                <viewController id="mZY-pH-GAR" userLabel="Yule" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LgC-UY-RZd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,30 +29,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vgR-IO-dyg"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="娱乐" image="tabYule" selectedImage="tabYuleHL" id="KsV-Qv-LDt"/>
                     <navigationItem key="navigationItem" id="cmH-oI-x0z"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tPf-Xr-apa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1580" y="467.73399014778329"/>
-        </scene>
-        <!--Yule-->
-        <scene sceneID="a01-dq-DJ1">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uOG-52-qwG" userLabel="Yule" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="娱乐" image="tabYule" selectedImage="tabYuleHL" id="KsV-Qv-LDt"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="96R-Cg-kuO">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="mZY-pH-GAR" kind="relationship" relationship="rootViewController" id="kGU-KK-L8f"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Hfn-l2-kkM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="637.60000000000002" y="467.73399014778329"/>
         </scene>
     </scenes>
     <resources>
