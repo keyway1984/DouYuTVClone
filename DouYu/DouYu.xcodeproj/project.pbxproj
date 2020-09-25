@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D65079C425023ADD0061C5EA /* UIBarButtonItemExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65079C325023ADD0061C5EA /* UIBarButtonItemExtensions.swift */; };
+		D65079C425023ADD0061C5EA /* NavigationBarExtensionMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65079C325023ADD0061C5EA /* NavigationBarExtensionMethods.swift */; };
 		D657695425010BF7004ADCFC /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D657695325010BF7004ADCFC /* Live.storyboard */; };
 		D657695625010C28004ADCFC /* Yule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D657695525010C28004ADCFC /* Yule.storyboard */; };
 		D657695925010C54004ADCFC /* Focus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D657695725010C54004ADCFC /* Focus.storyboard */; };
@@ -28,7 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D65079C325023ADD0061C5EA /* UIBarButtonItemExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtensions.swift; sourceTree = "<group>"; };
+		D65079C325023ADD0061C5EA /* NavigationBarExtensionMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarExtensionMethods.swift; sourceTree = "<group>"; };
 		D657695325010BF7004ADCFC /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
 		D657695525010C28004ADCFC /* Yule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Yule.storyboard; sourceTree = "<group>"; };
 		D657695825010C54004ADCFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYu/Classes/Main/Base.lproj/Focus.storyboard; sourceTree = SOURCE_ROOT; };
@@ -122,7 +122,7 @@
 		D68C666B2504DA3B00AB6970 /* NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				D65079C325023ADD0061C5EA /* UIBarButtonItemExtensions.swift */,
+				D65079C325023ADD0061C5EA /* NavigationBarExtensionMethods.swift */,
 				D68C66602502725400AB6970 /* NavigationSearchBar.swift */,
 			);
 			path = NavigationBar;
@@ -323,7 +323,7 @@
 				D68C66612502725400AB6970 /* NavigationSearchBar.swift in Sources */,
 				D69D72292500B260003CC22E /* SceneDelegate.swift in Sources */,
 				D657696025010F16004ADCFC /* MainViewController.swift in Sources */,
-				D65079C425023ADD0061C5EA /* UIBarButtonItemExtensions.swift in Sources */,
+				D65079C425023ADD0061C5EA /* NavigationBarExtensionMethods.swift in Sources */,
 				D65769622501335B004ADCFC /* LiveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
