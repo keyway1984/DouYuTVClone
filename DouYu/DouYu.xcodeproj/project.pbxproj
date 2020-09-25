@@ -71,9 +71,8 @@
 		D65079C125023A7D0061C5EA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D68C666B2504DA3B00AB6970 /* NavigationBarButtonItems */,
-				D68C666A2504D9E200AB6970 /* NavigationSearchBar */,
 				D69D722C2500B260003CC22E /* Main.storyboard */,
+				D68C666B2504DA3B00AB6970 /* NavigationBar */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -120,20 +119,13 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D68C666A2504D9E200AB6970 /* NavigationSearchBar */ = {
-			isa = PBXGroup;
-			children = (
-				D68C66602502725400AB6970 /* NavigationSearchBar.swift */,
-			);
-			path = NavigationSearchBar;
-			sourceTree = "<group>";
-		};
-		D68C666B2504DA3B00AB6970 /* NavigationBarButtonItems */ = {
+		D68C666B2504DA3B00AB6970 /* NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
 				D65079C325023ADD0061C5EA /* UIBarButtonItemExtensions.swift */,
+				D68C66602502725400AB6970 /* NavigationSearchBar.swift */,
 			);
-			path = NavigationBarButtonItems;
+			path = NavigationBar;
 			sourceTree = "<group>";
 		};
 		D69D721A2500B260003CC22E = {
