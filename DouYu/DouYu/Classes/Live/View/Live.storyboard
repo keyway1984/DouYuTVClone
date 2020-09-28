@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FKP-wc-3z2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FKP-wc-3z2">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Live-->
         <scene sceneID="d03-wv-oiJ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sPK-8c-cBQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="FKP-wc-3z2" userLabel="Live" customClass="LiveViewController" customModule="DouYu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eQZ-Bu-RZf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -23,12 +24,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="K0H-yI-3yn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="r4U-iz-6mh" firstAttribute="centerX" secondItem="eQZ-Bu-RZf" secondAttribute="centerX" id="Ad7-LU-kdZ"/>
                             <constraint firstItem="r4U-iz-6mh" firstAttribute="centerY" secondItem="eQZ-Bu-RZf" secondAttribute="centerY" id="lYg-qd-bKI"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="K0H-yI-3yn"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="推荐" image="tabLive" selectedImage="tabSpecialLiveHL" id="jhj-Pu-Y7U">
                         <color key="badgeColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -36,6 +37,7 @@
                     <navigationItem key="navigationItem" id="hpX-Xz-tOb"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sPK-8c-cBQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1580" y="-185.46798029556652"/>
         </scene>
@@ -43,5 +45,8 @@
     <resources>
         <image name="tabLive" width="44" height="44"/>
         <image name="tabSpecialLiveHL" width="44" height="44"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

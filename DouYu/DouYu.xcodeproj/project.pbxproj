@@ -80,8 +80,8 @@
 		D65079C225023A840061C5EA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D68C666225036A0F00AB6970 /* MainNavigationController.swift */,
 				D657695F25010F16004ADCFC /* MainViewController.swift */,
+				D68C666225036A0F00AB6970 /* MainNavigationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -122,10 +122,26 @@
 		D68C666B2504DA3B00AB6970 /* NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				D65079C325023ADD0061C5EA /* NavigationBarExtensionMethods.swift */,
-				D68C66602502725400AB6970 /* NavigationSearchBar.swift */,
+				D68CA2BC251DF1ED00A7F9C5 /* Methods */,
+				D68CA2BD251DF1FC00A7F9C5 /* View */,
 			);
 			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		D68CA2BC251DF1ED00A7F9C5 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				D65079C325023ADD0061C5EA /* NavigationBarExtensionMethods.swift */,
+			);
+			path = Methods;
+			sourceTree = "<group>";
+		};
+		D68CA2BD251DF1FC00A7F9C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D68C66602502725400AB6970 /* NavigationSearchBar.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D69D721A2500B260003CC22E = {
@@ -266,7 +282,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "魏卧鱼";
 				TargetAttributes = {
 					D69D72222500B260003CC22E = {
@@ -392,6 +408,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -452,6 +469,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

@@ -9,14 +9,9 @@
 import UIKit
 
 class MainNavigationController: UINavigationController {
+    @IBOutlet var MainNavigationBar: UINavigationBar!
 
-    @IBOutlet weak var MainNavigationBar: UINavigationBar!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
     }
-
-
 }
